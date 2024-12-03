@@ -26,7 +26,6 @@ public class testPolymorphism_2 {
         for (int i = 0; i < v.size(); i++) {
             vh = v.get(i);
             vh.move();
-
         }
     }
 }

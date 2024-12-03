@@ -24,7 +24,6 @@ public class Car extends Vehicle{
     }
 
     public void releaseHandBrake(){
-        System.out.println("handbreak...");
+        System.out.println("handbreak is released");
     }
-
 }
