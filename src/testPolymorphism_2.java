@@ -19,15 +19,14 @@ public class testPolymorphism_2 {
                 v.add(new Car("34 Car " + i));
             } else
                 System.out.println("\nimpossible case");
-            }
+        }
 
 
-            //Polymorphism uygulanan metot  "move"
-            for (int i = 0; i < v.size(); i++ ){
-                vh = v.get(i);
-                vh.move();
+        //Polymorphism uygulanan metot  "move"
+        for (int i = 0; i < v.size(); i++) {
+            vh = v.get(i);
+            vh.move();
 
-            }
         }
     }
 }
